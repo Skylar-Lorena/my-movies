@@ -1,0 +1,262 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://media.istockphoto.com/photos/film-reel-and-clapper-board-on-black-background-movie-video-and-and-picture-id1335364181?b=1&k=20&m=1335364181&s=170667a&w=0&h=elFV-iZqbBFa8-plBPoq_QzH_9VdnsBdPEWrrPF7nmU=);
+  background-repeat: none;
+  background-size: 100%;
+}
+
+#login {
+  background-image: url(https://weeklygravy.com/wp-content/uploads/2015/11/Movie-theater-box-office-with-blue-neon-lights.jpg);
+  background-size: 100%;
+  align-content: center;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+#logincolor {
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+  padding-top: 150px;
+  padding-bottom: 20px;
+  font-size: 7em;
+}
+
+.input {
+  background: transparent;
+  color: white;
+  border-color: teal;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+#login form {
+  height: 1000px
+}
+
+#formBasicTitle, #formBasicYear, #formBasicSelect, #formBasicImageUrl, .modal-header {
+  background: transparent;
+  color: white;
+
+}
+
+.modal-header {
+  background-color: black;
+  border-bottom-color: black !important;
+
+  color: #fff;
+  text-shadow:
+    0 0 7px rgb(207, 6, 6),
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(255, 0, 0),
+    0 0 82px rgba(255, 0, 0, 0.667),
+    0 0 92px rgba(255, 0, 0, 0.92),
+    0 0 102px rgb(248, 244, 242),
+    0 0 151px rgb(143, 1, 1);
+}
+
+button.btn-close {
+  background-color: #f6110a !important;
+}
+label.form-label, label.form-check-label {
+  color: white; 
+  text-shadow:
+    0 0 7px rgb(207, 6, 6),
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgba(255, 0, 0, 0.677),
+    0 0 82px rgba(255, 0, 0, 0.667),
+    0 0 92px rgba(255, 0, 0, 0.399),
+    0 0 102px rgba(240, 3, 3, 0.711),
+    0 0 151px rgb(143, 1, 1);
+}
+
+.modal-content {
+  border: 1px solid rgba(240, 232, 232, 0.243) !important;
+}
+
+.modal-body{
+  background-image: url("https://www.cnet.com/a/img/resize/4bae2ff4271c4906a28d9e8364065a6065b0f10a/2019/04/12/52c72c4b-bbae-43bc-b1c9-40792c5fb67c/vaderimmortal-episode1-vader1.jpg?auto=webp&fit=crop&height=675&width=1200");
+  background-size:cover ;
+  background-repeat: no-repeat;
+ }
+
+#movieheading {
+  text-align: center;
+  color: white;
+  background-color: rgb(11, 11, 10);
+}
+
+.headerLogo {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  margin: 0 auto;
+  border-radius: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;  
+}
+
+.navbar {
+  padding-bottom: 60px; 
+  font-family: Arial, sans serif;
+  background-color: black;
+  background-size: auto;
+  height: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(255, 102, 0),
+    0 0 82px rgb(255, 72, 0),
+    0 0 92px rgb(255, 47, 0),
+    0 0 102px rgb(255, 77, 0),
+    0 0 151px rgb(255, 42, 0);
+}
+
+.navlink {  
+  padding:10px;  
+  font-size: 200%;
+  /* float: left; */
+  align-content: left;
+}
+
+#newmovie {
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(60, 0, 255),
+    0 0 82px rgb(0, 195, 255),
+    0 0 92px rgb(0, 119, 255),
+    0 0 102px rgb(0, 132, 255),
+    0 0 151px rgb(60, 0, 255);
+}
+
+#form {
+  background-image: url(https://www.cnet.com/a/img/resize/4bae2ff4271c4906a28d9e8364065a6065b0f10a/2019/04/12/52c72c4b-bbae-43bc-b1c9-40792c5fb67c/vaderimmortal-episode1-vader1.jpg?auto=webp&fit=crop&height=675&width=1200);
+}
+
+.logo {
+  width: 220px;
+  height: 150px;
+  object-fit: contain;
+  margin: 0 auto;
+  border-radius: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;  
+}
+
+.pageTitle {
+  padding-bottom: 20px;
+}
+
+#moviePage {
+  margin: 0px 10px 0px 10px;
+}
+
+.movieTitle {
+  color: black;
+  text-shadow: .2px .3px white;
+  font-size: large;
+}
+ 
+.ui.grid {
+  padding: 50px 200px;
+}
+
+.ui.logout.button {
+  float: right;
+  margin-right: 30px;
+}
+
+#movieCard {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 5px;
+  font-size: 1.1em;
+  word-wrap: break-word;
+}
+
+.ui .card {
+  background-color: rgba(142, 136, 140, 0.855);
+  text-overflow: ellipsis;
+}
+
+
+#contacts {
+  background-image: url(https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW92aWUlMjB0aGVhdGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 400px;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+
+#space {
+  padding-bottom: 40px;
+}
+
+h1 {
+  color: rgb(116, 114, 114);
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgba(0, 255, 34, 0.524),
+    0 0 82px rgba(9, 255, 0, 0.495),
+    0 0 92px rgb(221, 255, 0),
+    0 0 102px rgb(229, 255, 0),
+    0 0 151px rgb(229, 255, 0);
+}
+
+h2 {
+  color: rgb(193, 190, 190);
+  text-shadow: 1px .5px white;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  text-align: left;
+}
+
+a:visited {
+  color: rgb(245, 250, 249);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
